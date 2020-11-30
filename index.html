@@ -10,7 +10,7 @@
 <body>
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky">
     <!--Collapse Button-->
     <div class="d-flex">
         <a class="navbar-brand" href="#">Arzekeil-Abel De Leon</a>
@@ -79,7 +79,27 @@
     <div class="container py-4">
         <div class="col-sm-16">
             <div id="about-me">
-                <h1 class="text-center">About Me</h1>
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, I'm Arzekeil-Abel De Leon</h1>
+                    <p class="lead">I am a Full Stack Developer from the GTA.</p>
+                    <hr class="my-4">
+                    <p>Some of the technologies that I use:</p>
+                      <div class="d-flex">
+                        <ul class="list-inline mr-auto">
+                            <li class="list-inline-item"><i class="fab fa-python fa-3x"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-node-js fa-3x"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-html5 fa-3x"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-css3-alt fa-3x"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-js-square fa-3x"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-bootstrap fa-3x"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-git-alt fa-3x"></i></li>
+                        </ul>
+                      </div>
+                    <p class="lead">
+                    <a class="btn btn-primary btn-md" href="assets/General Resume.pdf" target="_blank">See Resume</a>
+                    <a class="btn btn-primary btn-md" href="https://github.com/arzekeilgarcia" target="_blank">See GitHub</a>
+                    </p>
+                </div>
             </div>
         </div>
         <div class="col-sm-16">
@@ -90,6 +110,7 @@
         <div class="col-sm-16">
             <div id="services">
                 <h1 class="text-center">Services</h1>
+
             </div>
         </div>
         <div class="col-sm-16">
@@ -98,27 +119,25 @@
                 <div class="form-group">
                     <form action="app.js" method="post">
                         <div class="row">
-                            <div class="col-sm">
-                                <label for="email">Email address</label>
-                                <input class="form-control"  type="text" id="email" name="email" placeholder="@myemail.com">
-                            </div>
-                            <div class="col-sm">
-                                <label for="subject">Subject</label>
-                                <input class="form-control"  type="text" id="subject" name="subject" placeholder="Subject">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" type="text" id="message" name="message" placeholder="Your Message" rows="7"></textarea>
-                            </div>
-                        </div>
-                        <div class="row pt-3">
-                            <div class="col-sm-4 mx-auto">
-                                <button class="form-control" type="submit">Submit</button>
-                                <button class="form-control" type="reset">Reset</button>
-                            </div>
-                        </div>
+                          <div class="col-sm">
+                            <label for="email">Email address</label>
+                            <input class="form-control"  type="text" id="email" name="email" placeholder="@myemail.com">
+                          </div>
+                          <div class="col-sm">
+                            <label for="subject">Subject</label>
+                            <input class="form-control"  type="text" id="subject" name="subject" placeholder="Subject">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-sm">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" type="text" id="message" name="message" placeholder="Your Message" rows="7"></textarea>
+                          </div>
+                      </div>
+                          <div class="col-sm d-flex pt-4">
+                            <button class="form-control btn-primary mx-1" type="submit">Submit</button>
+                            <button class="form-control btn-danger mx-1"  type="reset">Reset</button>
+                          </div>
                     </form>
                 </div>
             </div>
@@ -142,28 +161,28 @@
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/arzekeil/" class="btn-floating btn-li mx-1">
-              <i class="fab fa-linkedin"> </i>
+            <a href="https://www.linkedin.com/in/arzekeil/" class="btn-floating btn-li mx-1" target="_blank">
+              <i class="fab fa-linkedin fa-2x"> </i>
             </a>
           </li>
       <li class="list-inline-item">
-        <a href="https://www.github.com/arzekeilgarcia" class="btn-floating btn-tw mx-1">
-          <i class="fab fa-github"> </i>
+        <a href="https://www.github.com/arzekeilgarcia" class="btn-floating btn-tw mx-1" target="_blank">
+          <i class="fab fa-github fa-2x"> </i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="https://www.youtube.com/channel/UCz7EqhzjsyvrHjm_3uuBPQw?view_as=subscriber" class="btn-floating btn-li mx-1">
-          <i class="fab fa-youtube"> </i>
+        <a href="https://www.youtube.com/channel/UCz7EqhzjsyvrHjm_3uuBPQw?view_as=subscriber" class="btn-floating btn-li mx-1" target="_blank">
+          <i class="fab fa-youtube fa-2x"> </i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="https://www.instagram.com/arzekeilgarcia/" class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-instagram"> </i>
+        <a href="https://www.instagram.com/arzekeilgarcia/" class="btn-floating btn-gplus mx-1" target="_blank">
+          <i class="fab fa-instagram fa-2x"> </i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="https://twitter.com/arzekeil" class="btn-floating btn-li mx-1">
-          <i class="fab fa-twitter"> </i>
+        <a href="https://twitter.com/arzekeil" class="btn-floating btn-li mx-1" target="_blank">
+          <i class="fab fa-twitter fa-2x"> </i>
         </a>
       </li>
     </ul>
