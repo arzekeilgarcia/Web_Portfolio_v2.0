@@ -14,7 +14,6 @@
     <!--Collapse Button-->
     <div class="d-flex">
         <a class="navbar-brand" href="#">Arzekeil-Abel De Leon</a>
-        <span class="navbar-text"><i class="fa fa-lg fa-tree"></i></span>
     </div>
     <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarMenu">
         <span class="navbar-toggler-icon"></span>
@@ -61,20 +60,70 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
+</div>
 
 <!--Main-->
-<div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container py-4">
+    <nav class="navbar navbar-expand navbar-dark bg-dark rounded">
         <!--Navbar list-->
-        <ul class="navbar-nav">
-            <!--Navbar items-->
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
-        </ul>
+        <div class="mx-auto">
+            <ul class="navbar-nav">
+                <!--Navbar items-->
+                <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#technologies" class="nav-link">Technologies</a></li>
+                <li class="nav-item"><a href="#cta" class="nav-link">Contact Me</a></li>
+            </ul>
+        </div>
     </nav>
+    <div class="container py-4">
+        <div class="col-sm-16">
+            <div id="about-me">
+                <h1 class="text-center">About Me</h1>
+            </div>
+        </div>
+        <div class="col-sm-16">
+            <div id="projects">
+                <h1 class="text-center">Projects</h1>
+            </div>
+        </div>
+        <div class="col-sm-16">
+            <div id="technologies">
+                <h1 class="text-center">Technologies</h1>
+            </div>
+        </div>
+        <div class="col-sm-16">
+            <div class="cta">
+                <h1 class="text-center">Contact Me</h1>
+                <div class="form-group">
+                    <form action="app.js" method="post">
+                        <div class="row">
+                            <div class="col-sm">
+                                <label for="email">Email address</label>
+                                <input class="form-control"  type="text" id="email" name="email" placeholder="@myemail.com">
+                            </div>
+                            <div class="col-sm">
+                                <label for="subject">Subject</label>
+                                <input class="form-control"  type="text" id="subject" name="subject" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" type="text" id="message" name="message" placeholder="Your Message" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-sm-4 mx-auto">
+                                <button class="form-control" type="submit">Submit</button>
+                                <button class="form-control" type="reset">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Footer -->
@@ -123,7 +172,7 @@
       <a href="#"> uios Group</a>
     </div>
   
-  </footer>
+</footer>
 
 </body>
 <!--JavaScript-->
