@@ -1,0 +1,28 @@
+{
+  "name": "Web ArzekeilGarcia",
+  "version": "1.0.0",
+  "description": "It is my personal website that will host my projects and services",
+  "main": "index.js",
+  "scripts": {
+    "startDev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arzekeilgarcia/Web_ArzekeilGarcia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arzekeilgarcia/Web_ArzekeilGarcia/issues"
+  },
+  "homepage": "https://github.com/arzekeilgarcia/Web_ArzekeilGarcia#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
