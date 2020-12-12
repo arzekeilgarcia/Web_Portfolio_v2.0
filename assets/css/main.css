@@ -4,3 +4,6 @@ html {
 .clickable{
   cursor: pointer;
 }
+.card-image{
+  height: 20vh;
+}
